@@ -28,6 +28,14 @@ namespace Aula1
                     nome = Console.ReadLine();
                     cadastro.Add(nome);
 
+                }else if(opc == 2)
+                {
+                    Console.WriteLine("Lista de Pacientes");
+                    foreach (String cad in cadastro)
+                    {
+                        
+                        Console.WriteLine(cad);
+                    }
                 }
             }
         }
